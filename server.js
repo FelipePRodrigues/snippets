@@ -21,6 +21,9 @@ app.get('/profile', (req, res) => {
     });
 });
 
-const server = app.listen(7000, () => {
+
+const PORT = process.env.PORT || 7000;
+
+const server = app.listen(PORT, () => {
     console.log(`Express running → PORT ${server.address().port}`);
 });
