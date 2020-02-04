@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/login.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body      
+        section.container
+            div#login
+                h1 Login
+                form#form(action="POST")
+                    label Email
+                    input(type="email")
+                    label Senha
+                    input(type="password")

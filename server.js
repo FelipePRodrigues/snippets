@@ -21,6 +21,11 @@ app.get('/profile', (req, res) => {
     });
 });
 
+app.get('/login', (req, res) => {
+    res.render('login', {
+        title: 'Login'
+    });
+});
 
 const PORT = process.env.PORT || 7000;
 
