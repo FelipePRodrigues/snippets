@@ -1,0 +1,22 @@
+.header{
+    width: 100vw;
+    height: 50px;    
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.login{
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+}
+
+.login:hover{
+    color: darkgrey;
+    cursor: pointer;
+}

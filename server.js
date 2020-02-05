@@ -8,8 +8,8 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
     res.render('index', {  
-        title: 'Primeira Página',
-        people: people.profiles
+        title: 'Snippets'
+        ,people: people.profiles
     });
 });
 
