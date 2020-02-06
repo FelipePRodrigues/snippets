@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="242.31204"
-     inkscape:cy="86.535835"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="231.02376"
+     inkscape:cy="73.445123"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -441,7 +441,7 @@
        ry="6.6848598" />
     <g
        id="g4647"
-       style="fill:#ececec"
+       style="fill:#e6e6e6"
        transform="translate(-1.8691559,-3.8747977)">
       <rect
          y="144.82005"
@@ -449,7 +449,7 @@
          height="20.221756"
          width="14.570921"
          id="rect4976"
-         style="fill:#ececec;fill-opacity:1;stroke:none;stroke-width:3.96828222;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:3.96828222;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
       <ellipse
          transform="skewY(-0.03251227)"
          ry="2.5130794"
@@ -457,7 +457,7 @@
          cy="165.09944"
          cx="101.56018"
          id="path4643"
-         style="fill:#ececec;fill-opacity:1;stroke:none;stroke-width:4.16836834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4.16836834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     </g>
     <rect
        style="fill:#666666;fill-opacity:1;stroke:#f2f2f2;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
