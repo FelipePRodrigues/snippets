@@ -8,8 +8,9 @@ html
         section.container
             div#login
                 h1 Login
-                form#form(action="POST")
+                form#form(method='POST',action='')
                     label Email
-                    input(type="email")
-                    label Senha
+                    input(type="email", id="oi")
+                    label Password
                     input(type="password")
+                    input(type="submit", value="Login")
