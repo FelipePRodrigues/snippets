@@ -6,8 +6,7 @@
   "scripts": {
     "start": "npx nodemon server.js"
   },
-  "author": "Ayo Isaiah",
-  "license": "MIT",
+  "author": "Felipe Rodrigues",
   "dependencies": {
     "express": "^4.16.3",
     "pug": "^2.0.3"
