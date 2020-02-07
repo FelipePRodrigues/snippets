@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 
 app.use(express.static(__dirname + '/public'));
+app.use(express.urlencoded())
 app.set('view engine', 'pug');
 
 app.use('/', require('./routes/index'));

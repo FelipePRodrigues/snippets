@@ -5,5 +5,5 @@ exports.createGet = function(req, res) {
 }
 
 exports.createPost = function(req, res, next){
-    
+    res.send(req.body.oi);
 }
