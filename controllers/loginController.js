@@ -5,5 +5,8 @@ exports.createGet = function(req, res) {
 }
 
 exports.createPost = function(req, res, next){
-    res.send(req.body.oi);
+    let email = req.body.email;
+    let password = req.body.password;      
+    
+    res.send(email + ' ' + password);
 }
