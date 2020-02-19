@@ -27,11 +27,11 @@ exports.createPost = function(req, res, next){
     client.query('SELECT NOW() as now', (err, res) => {
         if (err) throw err;
         for (let row of res.rows) {
-            teste += JSON.stringify(row);
+            console.log(JSON.stringify(row));
         }
         client.end();
     });
     
     
-    res.send(email + ' ' + password + ' ' + teste);
+    res.send(email + ' ' + password);
 }
