@@ -35,6 +35,8 @@ h1 {
     margin: 20px 0 0 0;
     font-size: 30px;
     font-weight: normal;
+    text-decoration: none;
+    color: black;
 }
 
 form{
@@ -65,7 +67,7 @@ form{
 }
 
 #form input[type=submit]{
-    margin: 40px 30px;
+    margin: 20px 0;
     color:white;
     padding: 8px 70px;
     background-color: #4d4d4d;
