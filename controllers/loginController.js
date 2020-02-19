@@ -7,6 +7,7 @@ exports.createGet = function(req, res) {
 exports.createPost = function(req, res, next){
     let email = req.body.email;
     let password = req.body.password;      
+    let teste;
     
     const { Client } = require('pg');
     
@@ -26,11 +27,11 @@ exports.createPost = function(req, res, next){
     client.query('SELECT NOW() as now', (err, res) => {
         if (err) throw err;
         for (let row of res.rows) {
-            console.log(JSON.stringify(row));
+            teste += JSON.stringify(row);
         }
         client.end();
     });
     
     
-    res.send(email + ' ' + password);
+    res.send(email + ' ' + password + ' ' + teste);
 }
