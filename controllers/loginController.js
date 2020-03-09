@@ -18,8 +18,7 @@ exports.createPost = async function(req, res, next){
         */
         
         let result = await loginModel.Login('teste', 'teste')
-        res.send(req.body.email + ' ' + req.body.password + ' ' + result.rows[0].now);
-        
+        res.send(req.body.email + ' ' + req.body.password + ' ' + result.rows[0].now);        
         
     } catch (error) {
         console.log(error.message);
