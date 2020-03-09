@@ -10,7 +10,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4",
-    "pg": "^7.18.1"
+    "pg": "^7.18.1",
+    "randomstring": "^1.1.5",
+    "dotenv": "^8.2.0",
+    "express-promise-router": "^3.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
