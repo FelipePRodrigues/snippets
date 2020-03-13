@@ -23,6 +23,7 @@ module.exports = {
         });        
         */
         
-        return await Db.query('SELECT NOW() as now');
+        //return await Db.query('SELECT NOW() as now');
+        return await Db.query('SELECT TRUE');
     }
 }

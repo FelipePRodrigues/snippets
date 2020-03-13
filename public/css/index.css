@@ -17,7 +17,11 @@ h2{
     font-size: 40px;
 }
 
-a{
+h4{
+    color: white;
+}
+
+#login{
     margin: 30px;
     color:white;
     padding: 10px 70px;
@@ -29,9 +33,18 @@ a{
     outline: none;
 }
 
-
-a:hover{
+#login:hover{
     background-color: #333333;
+}
+
+
+#signup{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+#signup:hover{
+    color: white;
 }
 
 

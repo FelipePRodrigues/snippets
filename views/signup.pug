@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/login.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body      
+        section.container
+            div#login
+                form#form(method='POST',action='')
+                    h1 Sign Up
+                    label Email
+                    input(type="email", name="email", required)
+                    label Password
+                    input(type="password", name="password", required)
+                    input(type="submit", value="Sign Up")

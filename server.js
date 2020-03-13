@@ -10,6 +10,7 @@ app.set('view engine', 'pug');
 
 app.use('/', require('./routes/index'));
 app.use('/login', require('./routes/login'));
+app.use('/signup', require('./routes/signup'));
 
 const server = app.listen(PORT, () => {
     console.log(`Express running → PORT ${server.address().port}`);
