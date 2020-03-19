@@ -13,7 +13,8 @@
     "pg": "^7.18.2",
     "randomstring": "^1.1.5",
     "dotenv": "^8.2.0",
-    "express-promise-router": "^3.0.3"
+    "express-promise-router": "^3.0.3",
+    "acorn": "^5.7.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
